@@ -1,0 +1,49 @@
+/* CSS RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Google Font */
+body {
+	font-family: 'Cormorant Garamond';
+	background-color: #fbf7f7;
+}
+
+
+nav {
+	padding: 2rem;
+	background-color: #205388;
+}
+
+/* colour palette for my website:
+
+#e3edef - skyblue
+#fbf7f7 - light sand
+205388 - dark blue
+
+
+*/
+
+
+#intro {
+	/*	Creates space between the contents of the intro section and its border */
+
+	/* Ginagamit kabuuan ng website if using %	*/
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+#intro h2, #intro p {
+	margin-bottom: 1rem;
+}
+
+
+footer {
+	margin: 0.8rem;
+}
